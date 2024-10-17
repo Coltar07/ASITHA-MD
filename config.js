@@ -5,6 +5,6 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MqcUWDDb#A9jbwX_uUYO0-d2qMJtIhM1pVVVByP5KaKO_JnsWXIg",
-MONGODB: process.env.MONGODB || "",//enter mongo db url
+SESSION_ID: process.env.SESSION_ID || "zKJziCqI#eAm4W-TnUb98x4OnbzFdm0FM1AsjVEe2oRJXYbB0exo",
+MONGODB: process.env.MONGODB || "mongodb+srv://Coltar07:<db_password>@coltar07.diwgx.mongodb.net/",//enter mongo db url
 };
